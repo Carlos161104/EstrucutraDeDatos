@@ -1,0 +1,33 @@
+Apuntadores
+
+int *pointer
+se le asigna una valor 
+pointer = &variable
+
+Apuntadores: variables contienen dirección memoria otra variable. Representada en hexadecimal. Apuntan a variable cuya dirección almacenan.
+	- Propósitos apuntadores: asignar objetos montón, memoria dinámica. Pasar funciones como argumentos. Iterar sobre elementos 	estructuras datos como arreglos.
+
+	- Poder apuntadores: herramientas poderosas, mal uso provoca errores. Pueden causar crasheos, bugs al acceder memoria 	incorrectamente.
+
+	- Declaración apuntadores: especificar tipo dato, identificador, * antes identificador. Apuntador solo debe apuntar a mismo tipo 	dato.
+
+Referenciación: obtener dirección memoria variable con &variable. Dirección puede cambiar cada ejecución.
+
+Asignación apuntadores: usar & con variable. O asignar dirección de otro apuntador existente.
+	- Desreferenciación: obtener valor almacenado en dirección apuntador con *apuntador. Acceder contenido apuntado.
+	- Operador ->: acceder campos estructura/registro mediante apuntador de manera legible.
+
+Una diureccion es invalidacuando apuntador no inicializado correctamente. Memoria liberada tras finalizar variable/ámbito.
+
+NULL: constante para indicar apuntador no apunta a nada. Útil estructuras datos dinámicas.
+
+Tipos: 
+
+	- Apuntadores apuntadores: declarar con * adicionales. Apuntan a otros apuntadores.
+	- Apuntadores constantes: no permiten modificar dirección almacenada, si el valor apuntado.
+	- Apuntadores constantes: declarados con const, no permiten modificar valor apuntado.
+	- Apuntadores arreglos: nombre es apuntador constante al primer elemento. Tratar apuntadores como arreglos y viceversa.
+
+Aritmética apuntadores: sumar/restar enteros, desplazamiento en bloques bytes del tipo dato. Recorrer arreglos con apuntadores.
+	- Restar apuntadores: resultado es número bloques de bytes entre direcciones, del tamaño tipo apuntado.
+	- Paso parámetros referencia: usar apuntadores en C para simular paso por referencia. Aplicar & con parámetro.

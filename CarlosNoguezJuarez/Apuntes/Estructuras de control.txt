@@ -1,0 +1,40 @@
+Estructuras de control
+
+Estructuras control: secuencial, selectiva, repetitiva. Determinan flujo ejecución programa.
+
+	- Secuencial: instrucciones orden establecido. Sigue secuencia lineal. No hay bifurcaciones.
+	- Selectiva: condición verdadera/falsa, opción acción. Condición simple/compuesta. Toma decisiones basadas en condiciones.
+		- Selectiva simple: if. Ejecuta bloque si condición es verdadera.
+		- Selectiva doble: if/else. Ejecuta bloque si condición verdadera, otro bloque si falsa.
+		- Selectiva múltiple: switch, case, break, default. Múltiples caminos según valor expresión. break termina caso. default cuando ningún caso coincide.
+
+Repetitiva: acción repite mientras condición verdadera. Ejecuta instrucciones repetidamente.
+	- Repetitiva while: condición no predefinida. Evalúa condición antes de ejecutar bloque.
+	- Repetitiva do-while: se ejecuta al menos una vez. Evalúa condición después de ejecutar bloque.
+	- Repetitiva for: condición predefinida, expresión inicial, incremento. Inicialización, condición, actualización en misma línea.
+
+
+Diagramas flujo inicio/fin, proceso, lectura, selectiva, repetitiva, flujo. Representación visual algoritmo.
+
+Pseudocodigo: Representación en lenguaje común del proceso que ara el código. 
+
+_________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________
+
+Entradas y salidas 
+
+C++ maneja entrada/salida (E/S) mediante concepto streams (flujos).
+
+Librería iostream maneja E/S.
+	- Operadores << y >>: inserción y extracción datos.
+	- Salida: operador << inserta datos en stream hacia pantalla.
+	- Entrada: operador >> extrae datos de stream desde teclado.
+
+
+Librería fstream maneja archivos.
+	- Archivos: espacio disco, información secuencial, nombre.
+		- Operaciones archivos: creación, apertura, lectura, escritura, desplazamiento.
+		- Abrir archivo: ofstream escritura, ifstream lectura.
+		- Cerrar archivo: método close().
+		- Escritura archivo: operador << inserta datos en archivo.
+		- Lectura archivo: operador >> extrae datos de archivo.

@@ -1,0 +1,38 @@
+Listas
+
+	- Lista enlazada: colección de elementos secuenciales. Cada elemento conecta al siguiente mediante un puntero.
+	- Nodo: contiene el valor del dato y un puntero al siguiente elemento.
+	- Tipos de listas: simplemente enlazadas, doblemente enlazadas, circular simplemente enlazadas, circular doblemente enlazadas.
+	- Estructura de datos: lineal, dinámica. Tamaño no fijo. Orden determinado por referencia, no índice.
+	- Operaciones básicas: insertar, buscar, eliminar.
+	- Implementación con apuntadores: nodo estructurado con dato y puntero al siguiente nodo.
+
+Implementación de listas con apuntadores
+
+	- Declaración nodo: struct Nodo { int data; Nodo *next; };.
+	- Crear variable apuntador: Nodo *p = new Nodo();.
+	- Referencia nodo: p->data, p->next.
+	- Recorrer lista: desde head hasta NULL.
+
+Operaciones en listas
+	-Insertar:
+		- Crear nuevo nodo.
+		- Asignar valor al nodo.
+		- Crear nodos auxiliares, asignar head al primero.
+		- Insertar nodo al inicio, medio o final según el caso.
+	- Buscar:
+		- Crear nodo auxiliar.
+		- Igualar nodo a head.
+		- Recorrer lista.
+		- Determinar si el elemento existe.
+	- Mostrar:
+		- Crear nodo auxiliar.
+		- Igualar nodo a head.
+		- Recorrer e imprimir elementos de la lista.
+	- Eliminar:
+		- Verificar lista no vacía.
+		- Crear nodos auxiliares, igualar a head.
+		- Recorrer lista.
+		- Reasignar punteros para eliminar nodo.
+
+

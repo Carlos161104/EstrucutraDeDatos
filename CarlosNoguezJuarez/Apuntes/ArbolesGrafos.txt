@@ -1,0 +1,59 @@
+Clas3e arboles
+
+Arbol binario: tipo especial árbol. Cada nodo máximo dos hijos. Llamados hijo izquierdo, hijo derecho.
+
+	-Raíz: nodo superior árbol binario. No tiene padre. Único nodo con esta propiedad.
+	-Hojas: nodos sin hijos árbol binario. Terminales, residen en niveles inferiores.
+Recorridos árbol binario: preorden (raíz, izquierdo, derecho), inorden (izquierdo, raíz, derecho), postorden (izquierdo, derecho, raíz).
+
+Eje 1
+Preorden (raiz, izquierda, derecha): F,B,A,D,C,E,G,I,H
+Inorden (izquierda, raiz, derecha): A,B,C,D,E,F,G,H,I
+Posorden (izquierda, derecha, raiz): A,C,E,D,B,H,I,G,F
+Amplitud: F,B,G,A,D,I,C,E,F
+
+-------------------------------------------------------
+
+Eje 2
+Preorden: (raiz, izquierda, derecha): +,1,3,5,*,<,2,-,%
+Inorden (izquierda, raiz, derecha): 3,1,5,,*,+,2,<,%,-
+Posorden (izquierda, derecha, raiz): 3,*,5,1,2,%,-,<,+
+Amplitud: +,1,<,3,5,2,-,*,%
+
+
+Tipos árboles binarios: lleno (cada nodo 0 o 2 hijos), completo (lleno excepto último nivel), balanceado (alturas subárboles difieren máximo en 1).
+
+
+
+
+
+
+_______________________________________________________________________________________
+Apuntes video grafos.
+
+Grafos: modelos matemáticos representan relaciones entre objetos. Conjunto de vértices y aristas.
+
+	-Vértices: entidades fundamentales del grafo. También llamados nodos o puntos.
+	-Aristas: conexiones entre vértices. Representan relaciones. También llamadas enlaces o líneas.
+
+
+Grafo dirigido: aristas tienen dirección. Flechas indican sentido relación.
+
+Grafo no dirigido: aristas sin dirección. Relaciones bidireccionales.
+
+Grafo ponderado: aristas tienen peso o costo. Representa distancia, tiempo, capacidad.
+
+Grafo simple: sin bucles ni aristas paralelas. Cada par nodos conectados una vez.
+
+Grafo completo: cada par de vértices conectados directamente. Contiene todas aristas posibles.
+
+Grafo bipartito: vértices divididos dos conjuntos. Aristas solo entre conjuntos diferentes.
+
+		-Camino: secuencia vértices, cada par conectado por arista. Representa recorrido.
+		-Ciclo: camino donde primer y último vértice coinciden. Forma bucle.
+
+Grafo conexo: existe camino entre cualquier par de vértices. No hay nodos aislados.
+
+Grafo planar: se puede dibujar sin cruzar aristas. Útil diseño circuitos.
+
+Árbol: grafo conexo sin ciclos. Jerarquía, estructura de datos.

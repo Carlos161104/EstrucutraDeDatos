@@ -1,0 +1,54 @@
+Colas
+    -Cola: estructura de datos lineal, implementa FIFO (First-In, First-Out).
+    -Nodo: contiene valor del dato y puntero al siguiente nodo.
+    -Operaciones básicas: insertar (encolar), eliminar (desencolar).
+    * Referensias: inicio (HEAD) y final (TAIL).
+
+Cola vacía
+- HEAD y TAIL apuntan a NULL.
+- No se puede desencolar elementos.
+
+Implementación con listas
+Definición nodo: struct Nodo { int data; Nodo *next; };.
+
+Operaciones en colas
+    - Insertar (encolar):
+
+        - Crear espacio en memoria para el nodo.
+        - Asignar valor al nodo.
+        - Asignar punteros HEAD y TAIL al nuevo nodo según el caso (vacía o no vacía).
+    - Eliminar (desencolar):
+        -Crear nodo auxiliar (aux_delete) y asignarle el frente (HEAD).
+        -Mover HEAD al siguiente elemento.
+        -Eliminar nodo del frente.
+
+Func Insertar:
+
+void agregarCola(Nodo *&head, Nodo *&tail, int n) {
+  Nodo *new_nodo = new Nodo();
+  new_nodo->data = n;
+  new_nodo->next = NULL;
+  if (head == NULL) {
+    head = new_nodo;
+  } else {
+    tail->next = new_nodo;
+  }
+  tail = new_nodo;
+}
+
+Func Eliminar
+void eliminarCola(Nodo *&head, Nodo *&tail) {
+  Nodo *aux_delete = head;
+  head = head->next;
+  delete aux_delete;
+  if (head == NULL) {
+    tail = NULL;
+  }
+}
+
+
+Implem de docs:
+    ->Gestión de memoria limitada en impresoras.
+    ->Cola de impresión permite enviar varios documentos sin esperar la finalización de cada tarea.
+    ->Al enviar un archivo a imprimir, se crea un archivo de almacenamiento intermedio en formato EMF.
+    ->Las impresiones se realizan según el orden de llegada (FIFO).

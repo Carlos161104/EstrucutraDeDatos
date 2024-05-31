@@ -1,0 +1,16 @@
+Estructura de datos: modelo matemático organización datos. Representación estructurada información.
+
+Internas: estáticas, dinámicas.
+	-Estáticas: simples (booleano, carácter, entero, real), compuestas (arreglos, conjuntos, cadenas, registros).
+	-Dinámicas: lineales (pilas, colas, listas), no lineales (árboles, grafos).
+
+Externas: archivos, bases de datos.
+	-Arreglo: conjunto elementos homogéneos localizaciones contiguas memoria.
+	-Lista: elementos relacionados por dirección. Antecesor, sucesor.
+	-Pila: UEPS, último en entrar primero en salir.
+	-Cola: PEPS, primero en entrar primero en salir.
+	-Árbol: jerarquía, estructura no lineal.
+	-Grafo: sin jerarquía, eventos, estados, arcos.
+
+Procesos básicos: inserción, recorrido, ordenación, clasificación, búsqueda, eliminación.
+

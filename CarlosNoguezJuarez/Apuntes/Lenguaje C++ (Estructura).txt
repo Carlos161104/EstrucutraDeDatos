@@ -1,0 +1,54 @@
+Lenguaje C++ (Estructura)
+
+C++ lenguaje programación propósito general. Todo programable.
+Reutilización código librerías usuario.
+
+Entorno típico C++: 
+	-editor, preprocesador, compilador, enlazador, cargador, CPU.
+
+Estructura compilador: 
+	-análisis léxico, sintáctico, semántico, generación código intermedio, optimización, generación código.
+
+IDEs: 
+	-Visual Studio Code, Dev-C++, Code::Blocks, Visual C++, C++Builder, Eclipse, Xcode, KDevelop, MonoDevelop.
+
+Programa: 
+	-librerías, función principal.
+
+Variables:
+	Tipos de datos intrínsecos con rangos y espacio ocupado: char, unsigned char, int, unsigned int, short int, long, unsigned long, 	float, double, long double, bool.
+
+Reglas para identificadores de variables: 
+	letras, números, '_', no iniciar con número, distinguir mayúsculas/minúsculas.
+
+		-Declaración múltiple: int x, y, z;
+
+Operadores:
+	-Matemáticos: +, -, *, /, %, ++, --
+	-Asignación: =, +=, -=, *=, /=, %=
+	-Relacionales: ==, !=, >, >=, <, <=
+	-Lógicos: ||, &&, !
+		
+		-Secuencias de escape: \n, \t, \b, \a, ", ', ?, \
+
+Declaración variables: 
+	- tipo, nombre, valor inicial.
+		int Var1 = 1;
+
+
+Constantes: const, tipo, nombre, valor (no se puede editar el contenido).
+	const int VAr1 = 5;
+
+Funciones: conjunto instrucciones, parámetros, valor retorno. Declaración, definición.
+	- Las exter disponibles para todo programa, static no 
+	- El nombre relacionado con la acción  , con mas de 2 palabras se separan con _
+	- Cuerpo entre llaves 
+
+Parametro valor o referencia:
+
+	- Valor: a pesar de que se hagan operaciones con una variable y se modifiquen dentro de una función no se modificara en el espacio 	de memoria
+
+	- Referencia: Se modificara en la memoria cualquier cambio que se le haga a una variable dentro de una función.
+
+
+

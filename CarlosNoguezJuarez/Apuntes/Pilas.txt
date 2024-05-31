@@ -1,0 +1,38 @@
+Pilas
+- Pila: estructura de datos lineal, dinámica. Implementa LIFO (Last-In, First-Out).
+- Nodo: contiene valor del dato, puntero al siguiente nodo.
+- Operaciones básicas: insertar (push), eliminar (pop).
+- Elemento accesible: solo el de la parte superior (tope).
+
+Operaciones en pilas
+    - Insertar (push):
+        - Crear espacio en memoria para nodo.
+        - Asignar valor al nodo.
+        - Asignar puntero al nodo.
+        - Asignar nuevo nodo al tope.
+    - Eliminar (pop):
+        - Verificar pila no vacía.
+        - Crear variable auxiliar para nodo a eliminar.
+        - Igualar auxiliar al tope.
+        - Pasar tope al siguiente nodo.
+        - Eliminar nodo auxiliar.
+    - Mostrar:
+        - Crear nuevo nodo auxiliar.
+        - Igualar auxiliar al tope.
+        - Recorrer e imprimir elementos desde tope hasta NULL.
+
+
+Pila vacía:
+No contiene elementos. Tope apunta a NULL. Push posible, nodo se convierte en único elemento. Tope apunta al nodo.
+Pop no posible.
+Pila con elementos:
+
+Push inserta nodo en el tope.
+- Pop elimina nodo del tope. Tope apunta al siguiente nodo.
+
+
+
+Uso en memoria RAM de computadoras.
+    Tres segmentos de memoria: texto, pila, montículo.
+    Reserva de memoria en pila al iniciar una aplicación.
+    Variables de funciones almacenadas en marcos de la pila.
